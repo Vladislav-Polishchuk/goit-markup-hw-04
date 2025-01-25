@@ -196,11 +196,12 @@ img {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png), url(../images/Dark.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 
