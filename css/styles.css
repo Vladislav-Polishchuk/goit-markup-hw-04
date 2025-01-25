@@ -178,6 +178,11 @@ img {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: url(../images/people.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(46, 47, 66, 0.7);
 }
 
 
