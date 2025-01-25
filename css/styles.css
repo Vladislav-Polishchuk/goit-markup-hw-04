@@ -60,11 +60,15 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav {
@@ -96,30 +100,43 @@ img {
   align-items: center;
   gap: 40px;
 
+
 }
 
 
 
-.header-text-one {
+.header-text-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
   padding: 24px 0;
   display: block;
-
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.header-text-one:hover {
+.header-text-studio:hover {
   color: #404bbf;
 }
 
-.header-text-one:focus {
+.header-text-studio:focus {
   color: #404bbf;
 }
 
-.header-text-one {
+.header-text-studio::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.header-text-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -127,15 +144,15 @@ img {
   color: #2e2f42;
 }
 
-.header-text-one:hover {
+.header-text-portfolio:hover {
   color: #404bbf;
 }
 
-.header-text-one:focus {
+.header-text-portfolio:focus {
   color: #404bbf;
 }
 
-.header-text-one {
+.header-text-contacts {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -143,11 +160,11 @@ img {
   color: #2e2f42;
 }
 
-.header-text-one:hover {
+.header-text-contacts:hover {
   color: #404bbf;
 }
 
-.header-text-one:focus {
+.header-text-contacts:focus {
   color: #404bbf;
 }
 
@@ -165,13 +182,24 @@ img {
 }
 
 
-.address-a {
+.address-mail {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   display: block;
   font-size: 16px;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-tel {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  display: block;
+  font-size: 16px;
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-header {
