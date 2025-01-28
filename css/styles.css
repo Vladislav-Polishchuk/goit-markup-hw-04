@@ -431,10 +431,11 @@ img {
 
 }
 
-.section-list:hover {
-  transform: translateY(0%);
-
+.section-list:hover .sect-parag,
+.section-list:focus .sect-parag {
+  transform: translatey(0);
 }
+
 
 .sect-images {
   position: relative;
@@ -522,6 +523,11 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px
+}
+
+.fooooooter {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-div-container {
