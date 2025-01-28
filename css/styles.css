@@ -548,10 +548,7 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-ul {
-  display: flex;
-  gap: 16px;
-}
+
 
 .footer-spisok {
   width: 40px;
@@ -562,7 +559,7 @@ img {
 .footer-ul {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-spisok {
