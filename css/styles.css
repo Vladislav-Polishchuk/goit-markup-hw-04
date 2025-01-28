@@ -536,10 +536,10 @@ img {
   margin-right: 120px;
   flex-direction: column;
   justify-content: flex-end;
-
+  margin-right: 120px
 }
 
-.footer-paragraf {
+.footer-paragraf-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
